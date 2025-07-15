@@ -33,10 +33,8 @@ By default we spawn magazines between 80% - 100% capacity.
 Skamdrept and myself (Badger 2-3) worked on SESOF MagRepack. ACE pulled in our work to include with their series of mods. 
 Which is pretty neat!
 
-<list>
-    <li><a href="https://reforger.armaplatform.com/workshop/5ED143120C5465BD-SESOFMagRepack">SESOF Mag Repack</a></li>
-    <li><a href="https://reforger.armaplatform.com/workshop/611CB1D409001EB0-ACEMagazineRepack">ACE Magazine Repack</a></li>
-</list>
+- [SESOF Mag Repack](https://reforger.armaplatform.com/workshop/5ED143120C5465BD-SESOFMagRepack)
+- [ACE Magazine Repack](https://reforger.armaplatform.com/workshop/611CB1D409001EB0-ACEMagazineRepack)
 
 ## Loot Respawn
 
