@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="tw-gm"
+                 name="TrainWreck"
+                 start-page="starter-topic.md">
+
+    <toc-element topic="starter-topic.md"/>
+    <toc-element toc-title="Release Notes">
+        <toc-element topic="2025-07-15.md"/>
+    </toc-element>
+    <toc-element toc-title="TrainWreck Looting">
+        <toc-element topic="Overview.md"/>
+        <toc-element topic="Lootable-Container.md"/>
+        <toc-element topic="Scavs.md"/>
+    </toc-element>
+    <toc-element toc-title="TrainWreck GM">
+        <toc-element topic="Spawn-in-Buildings.md"/>
+        <toc-element topic="TW-MonitorPositions.md"/>
+    </toc-element>
+</instance-profile>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="5b9e7f1e">
+        <description>Created after removal of "TrainWreck" from TrainWreck</description>
+        <accepts>TrainWreck.html</accepts>
+    </rule>
+    <rule id="3b7e8e74">
+        <description>Created after removal of "Monitor Player Positions" from TrainWreck</description>
+        <accepts>Monitor-Player-Positions.html</accepts>
+    </rule>
+    <rule id="12de45f7">
+        <description>Created after removal of "TrainWreck" from TrainWreck</description>
+        <accepts>TrainWreck.html</accepts>
+    </rule>
+</rules>
