@@ -80,7 +80,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.output.pages_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     needs: [build, test]
     runs-on: ubuntu-latest
     steps:
@@ -89,17 +89,18 @@ jobs:
         with:
           name: docs
           path: artifacts
+
       - name: Unzip artifact
-        run: unzip -O UTF-8 -qq "artifacts/${{ needs.build.outputs.artifact }}"
-        
+        run: unzip -O UTF-8 -qq "artifacts/${{ needs.build.outputs.artifact }}" -d dir
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      
+
       - name: Package and upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: dir
-          
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
