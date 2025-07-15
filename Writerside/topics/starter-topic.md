@@ -14,7 +14,7 @@ $profile:lootmap.json
 $profile:spawnSettings.json
 </code-block>
 
-### [GM Mod](Spawn-in-Buildings.md)
+### GM Mod
 
 Contains centralized logic that's shared between other TrainWreck mods. 
 
@@ -29,7 +29,7 @@ Dynamically spawns AI around player positions based on configurable values. This
 
 <a href="https://reforger.armaplatform.com/workshop/627912F23F2FC55C-TrainWreck-SpawnSystem">Reforger Workshop</a>
 
-### [Loot System Mod](Overview.md)
+### Loot System Mod
 
 Dynamically pulls from `SCR_FactionManager`'s entity catalog to populate a `$profile:lootmap.json` file. This system will 
 merge with what it has with what it finds at run-time. Allowing you to hot-swap mods with ease. 
@@ -37,3 +37,10 @@ merge with what it has with what it finds at run-time. Allowing you to hot-swap 
 If a mod is not loaded, the system will skip said mod to avoid breaking.
 
 <a href="https://reforger.armaplatform.com/workshop/626E39840DDC4323-TrainWreckLooting">Reforger Workshop</a>
+
+<seealso title="Mods">
+    <category ref="related">
+        <a href="Spawn-in-Buildings.md">GM Mod</a>    
+        <a href="Overview.md">Looting Mod</a>
+    </category>
+</seealso>
