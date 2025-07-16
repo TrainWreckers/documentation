@@ -3,4 +3,6 @@
 <labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
     <secondary-label id="breaking" name="Breaking Changes" color="red"/>
+    <secondary-label id="spawn-system" name="Spawn System" color="blue"/>
+    <secondary-label id="gm-mod" name="GM Mod" color="blue"/>
 </labels>
