@@ -7,6 +7,7 @@
     <build-profile instance="tw-gm">
         <variables>
             <noindex-content>false</noindex-content>
+            <header-logo>trainwreck.png</header-logo>
         </variables>
     </build-profile>
     <build-profile instance="tw-ss">

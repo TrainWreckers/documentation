@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="TrainWreck" id="TrainWreck">
+    
+    <section-starting-page>
+        <title>Train Wreck</title>
+        <description>
+            Series of mods created by Badger 2-3, with mastermind IronMist at the helm.
+        </description>
+        <spotlight>
+            <card href="2025-07-15.md" badge="check-list" summary="Latest Changes"/>
+            <card href="Overview.md" badge="search" summary="Looting Mod"/>
+        </spotlight>
+        <primary>
+            <title>Reporting</title>
+            <a href="https://github.com/TrainWreckers/TrainWreckLooting/issues"  summary="Report an issue with the Looting mod">Problem with Looting</a>
+            <a href="https://github.com/TrainWreckers/TrainWreck-SpawnSystem/issues" summary="Report an issue with the Spawn System mod">Problem with Spawn System</a>
+        </primary>
+        <secondary>
+            <title>Workshop</title>
+            <a href="https://reforger.armaplatform.com/workshop/61F8FB543ECB6949-TrainWreck-GM" summary="Core dependency, provides ability for AI to spawn in buildings and monitor player positions">GM Mod</a>
+            <a href="https://reforger.armaplatform.com/workshop/627912F23F2FC55C-TrainWreck-SpawnSystem" summary="Configurable spawn system">Spawn System</a>
+            <a href="https://reforger.armaplatform.com/workshop/626E39840DDC4323-TrainWreckLooting" summary="Configurable loot system">Loot System</a>
+        </secondary>
+    </section-starting-page>
+</topic>

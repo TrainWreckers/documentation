@@ -4,9 +4,8 @@
 
 <instance-profile id="tw-gm"
                  name="TrainWreck"
-                 start-page="starter-topic.md">
-
-    <toc-element topic="starter-topic.md"/>
+                 start-page="TrainWreck.topic">
+    <toc-element topic="TrainWreck.topic"/>
     <toc-element toc-title="Release Notes">
         <toc-element topic="2025-07-15.md"/>
     </toc-element>
