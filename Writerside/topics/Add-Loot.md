@@ -118,8 +118,8 @@ If the prefab(s) you want to be lootable are **not** in one of the faction entit
 at least one faction has the prefab, our lootmap will pick it up.
 
 Worth noting that we remove duplicate entries. Whatever appears first... that's how we do it. FIA and USSR both have SVD snipers in their catalogs. 
-Whichever faction appears first (FIA) ends up being the prefab we grab. For a visual, we are referring to the full resource name of a prefab. 
-So you aren't missing or losing anything by us not having duplicates.
+Whichever faction appears first (FIA) ends up being the prefab we grab. For a visual (`{3EB02CDAD5F23C82}Prefabs/Weapons/Rifles/SVD/Rifle_SVD.et`), 
+we are referring to the full resource name of a prefab. So you aren't missing or losing anything by us not having duplicates.
 
 The kicker here is if you intended on having the item spawn within multiple categories. You can either add it manually in our json (not fun) or create a new category (as described by this guide) then enable 
 said category on the prefabs you wish to have said item spawn in. We are following vanilla intent here.
