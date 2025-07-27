@@ -23,12 +23,6 @@ For example, the Smoke Grenade has two "Entity Data" objects. **ResupplyData** a
 in the **Arsenal Data**. As the screenshot depicts, the smoke grenade is linked to **NON_LETHAL_THROWABLE**. For our purposes, this 
 is good enough to associate a prefab to a category!
 
-----
-
-So how would you add those items into the loot table you may ask?
-
-----
-
 ## Add Custom Category for loot
 
 This is the base game's Arsenal Item Type. We programmatically scrape these enum values to produce our categories. If you
