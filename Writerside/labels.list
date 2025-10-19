@@ -5,6 +5,7 @@
     <secondary-label id="breaking" name="Breaking Changes" color="red"/>
     <secondary-label id="spawn-system" name="Spawn System" color="blue"/>
     <secondary-label id="gm-mod" name="GM Mod" color="blue"/>
+    <secondary-label id="loot-mod" name="Looting Mod" color="blue"/>
     <secondary-label id="code-complete" name="Code-Complete" color="strawberry"/>
     <secondary-label id="not-used" name="Not Used" color="tangerine"/>
 </labels>
