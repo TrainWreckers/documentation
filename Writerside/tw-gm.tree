@@ -19,6 +19,7 @@
     <toc-element toc-title="TrainWreck Looting">
         <toc-element topic="Add-Loot.md">
             <toc-element topic="Overthrow-Integration.md"/>
+            <toc-element topic="Entity-Catalog.md"/>
         </toc-element>
         <toc-element topic="Overview.md"/>
         <toc-element topic="Lootable-Container.md"/>
